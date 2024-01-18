@@ -70,16 +70,17 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         height:60,
         width: "90%",
-        borderRadius: 10,
-        backgroundColor: "#47a6ff", 
+        backgroundColor: "white", 
         borderRadius: 15,
+        borderWidth: 5,
+        borderColor: "#47a6ff",
         elevation: 3 
     },
     headingText: {
         justifyContent: "center",
         alignItems: "center",
         fontSize: 32,
-        color: "white",
+        color: "#47a6ff",
         fontWeight: "bold",
     },
     dicImgSec: {
@@ -93,13 +94,15 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         height: 60,
         width: 150,
-        backgroundColor: '#47a6ff',
+        backgroundColor: 'white',
         borderRadius: 15,
+        borderWidth: 5,
+        borderColor: "#47a6ff",
         elevation: 3
     },
     diceText: {
         fontSize: 23,
-        color: "white",
+        color: "#47a6ff",
         fontWeight: "bold"
     }
 })
